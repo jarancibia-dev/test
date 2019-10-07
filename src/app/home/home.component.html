@@ -1,0 +1,12 @@
+<body>
+    <p>Home</p>
+
+    <h1> Verificación de usuario</h1>
+    <div>
+        <input type = "text" [(ngModel)] = "key" placeholder="Ingrese usuario">
+        <input type = "password" [(ngModel)] = "name" placeholder="Ingrese clave">
+        <button (click) = verifyUser()> Acceder como usuario </button>
+        <button (click) = verifyAdmin()> Acceder como administrador </button> 
+    </div>
+    
+    </body>
